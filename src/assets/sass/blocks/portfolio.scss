@@ -1,0 +1,110 @@
+.portfolio__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.portfolio {
+    position: relative;
+}
+
+.portfolio__items {
+    overflow: hidden;
+}
+
+.portfolio__items__inner {
+    height: 320px;
+    display: flex;
+
+    transition: 0.5s all;
+}
+
+.portfolio__item {
+    margin-right: 13.5px;
+    position: relative;
+    z-index: 10;
+
+    background-color: #000;
+
+    &:hover {
+        .poster {
+            opacity: .3;
+        }
+
+        .portfolio__name {
+            display: block;
+        }
+    }
+
+    &:first-child {
+        margin-left: 13.5px;
+    }
+}
+
+
+.poster {
+    position: relative;
+    z-index: 7;
+
+    background-color: $white;
+    height: 320px;
+    width: auto;
+    transition: opacity .1s linear;
+}
+
+.poster__link {
+    position: relative;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.portfolio__name {
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+    color: $white;
+    pointer-events: none;
+    display: none;
+
+    position: absolute;
+    bottom: -0;
+    left: 0;
+    z-index: 12;
+}
+
+.portfolio__arrow__left {
+    width: 53px;
+    height: 3.5rem;
+    fill: $gray-dark;
+    cursor: pointer;
+
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: -5%;
+
+    transition: fill .1s linear;
+
+    &:hover {
+        fill: $pink;
+    }
+}
+
+
+.portfolio__arrow__right {
+    width: 53px;
+    height: 3.5rem;
+    fill: $gray-dark;
+    cursor: pointer;
+
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    right: -5%;
+    
+    transition: fill .1s linear;
+
+    &:hover {
+        fill: $pink;
+    }
+}
