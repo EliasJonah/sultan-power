@@ -1,14 +1,40 @@
 .header {
-    margin-top: 2rem;
+    background-color: white;
 }
 
 .header__inner {
-    padding: .8rem 1.4rem;
-    background-color: $white;
-    border-radius: $radius;
-    box-shadow: $shadow;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-around;
 }
 
-.header__row {
-    align-items: center;
+.header__text {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header__btn {
+    margin: auto 0;
+
+    width: 226px;
+    height: 58px;
+    left: 1026px;
+    top: 32px;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: white;
+    background: linear-gradient(180deg, #F42C2B 0%, rgba(0, 0, 0, 0) 100%), #460D09;
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: background .2s linear;
+
+    &:hover {
+        background: linear-gradient(180deg, #d32a2a 0%, rgba(0, 0, 0, 0) 100%), #1b0807;
+    }
 }
