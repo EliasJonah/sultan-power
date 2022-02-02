@@ -17,9 +17,18 @@
     align-items: center;
 }
 
+.content__two__flex {
+    background: $vanilla;
+}
+
 .content__text {
+    margin-right: 1rem;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
+
+    & span {
+        font-weight: bold;
+    }
 }

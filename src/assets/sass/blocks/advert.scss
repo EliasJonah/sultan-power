@@ -1,0 +1,84 @@
+.main__circle__advert {
+    margin: 1rem;
+    top: 0%;
+    left: 0%;
+}
+
+.advert__tablets {
+    position: absolute;
+    top: 10%;
+    right: -15%;
+    z-index: 20;
+}
+
+.advert__tablet {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    z-index: 21;
+}
+
+.advert__vote__content {
+    padding-left: 2rem;
+    width: 275px;
+}
+
+.advert__vote__one {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    position: absolute;
+    top: 15%;
+    right: 80%;
+    z-index: 12;
+}
+
+.advert__vote__two {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    position: absolute;
+    top:45%;
+    right: 90%;
+    z-index: 12;
+}
+
+.advert__vote__three {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    position: absolute;
+    top: 70%;
+    right: 75%;
+    z-index: 12;
+}
+
+.advert__vote__four {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    z-index: 12;
+}
+
+.advert__vote__five {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    position: absolute;
+    top: 45%;
+    left: 90%;
+    z-index: 12;
+}
+
+.advert__vote__six {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    position: absolute;
+    top: 70%;
+    left: 85%;
+    z-index: 12;
+}

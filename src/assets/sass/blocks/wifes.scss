@@ -3,17 +3,19 @@
 }
 
 .wifes__inner {
-    padding: 60px;
+    padding: 45px;
     background: $dark_red;
     border-radius: $radius_sm;
 }
 
 .wifes__border {
-    border: 3px solid white;
+    border: 2px solid white;
     border-radius: $radius_sm;
 }
 
 .wifes__title {
+    margin-top: 1rem;
+
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -21,6 +23,17 @@
     text-align: center;
 
     color: white;
+
+    & span {
+        font-weight: bold;
+    }
+}
+
+.wifes__title__two {
+    font-size: 36px;
+    margin-bottom: 2rem;
+
+    line-height: 44px;
 }
 
 .wifes__flex {
@@ -30,9 +43,12 @@
 
 .wifes__flex__item {
     position: relative;
+    margin: 20px;
     
     & img {
-        width: 370px;
+        width: 340px;
+        border-radius: $radius_sm;
+        box-shadow: 0 0 8px 3px rgba(255, 255, 255, .6);
     }
 }
    
@@ -45,6 +61,6 @@
 
 .wifes__flex__title__two {
     position: absolute;
-    left: 10%;
+    left: 5%;
     top: 50%;
 }
