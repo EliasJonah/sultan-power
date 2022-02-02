@@ -1361,10 +1361,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main {
+    position: relative;
     height: 1088px;
     margin-bottom: 2rem;
     background: url(../img/main/girls-bcg.jpg) center no-repeat;
     background-size: cover;
+}
+
+.pattern__left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.pattern__right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
 }
 
 .main__title {
@@ -1422,8 +1437,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .main_lightning {
     position: absolute;
-    bottom: -40%;
-    right: -35%;
+    bottom: 0%;
+    right: 0%;
     z-index: 8;
 }
 
@@ -1483,8 +1498,8 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     list-style-type: none;
     position: absolute;
-    top: 90%;
-    left: 30%;
+    top: 85%;
+    left: 35%;
     z-index: 15;
 }
 
@@ -1499,4 +1514,194 @@ h1, h2, h3, h4, h5, h6 {
 
 .main__vote__content__long {
     width: 275px;
+}
+
+.form {
+    position: relative;
+    width: 356px;
+    height: 538px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    z-index: 15;
+}
+
+.form__inside {
+    margin: 28px;
+    width: 300px;
+    height: 482px;
+}
+
+.form__title {
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.form__title span {
+    font-weight: bold;
+}
+
+.time__title {
+    margin-bottom: 0.6rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.colon {
+    margin-top: 10px;
+}
+
+.time__items {
+    display: flex;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.time__item center {
+    margin-top: 0.6rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.clock {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(180deg, #F42C2B 0%, rgba(0, 0, 0, 0) 100%), #460D09;
+}
+
+.form__dialog {
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.form__input {
+    padding: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    border: none;
+    border-radius: 10px;
+    background: #EAEAEC;
+    color: grey;
+}
+
+.form__button {
+    padding: 15px 20px;
+    margin: 0 22px 1rem 22px;
+    font-style: normal;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    background: linear-gradient(180deg, #F42C2B 0%, rgba(0, 0, 0, 0) 100%), #460D09;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form__note {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.form__note span {
+    font-weight: 600;
+}
+
+.content {
+    margin-bottom: 2rem;
+}
+
+.pleasure__header {
+    margin-bottom: 3rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.content__flex {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.content__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.wifes {
+    margin-bottom: 2rem;
+}
+
+.wifes__inner {
+    padding: 60px;
+    background: #460D09;
+    border-radius: 15px;
+}
+
+.wifes__border {
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.wifes__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: white;
+}
+
+.wifes__flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wifes__flex__item {
+    position: relative;
+}
+
+.wifes__flex__item img {
+    width: 370px;
+}
+
+.wifes__flex__title {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+}
+
+.wifes__flex__title__two {
+    position: absolute;
+    left: 10%;
+    top: 50%;
 }

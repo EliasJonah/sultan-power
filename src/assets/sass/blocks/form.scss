@@ -1,0 +1,124 @@
+.form {
+    position: relative;
+    width: 356px;
+    height: 538px;
+
+    border-radius: $radius_sm;
+    background-color: white;
+    color: black;
+    z-index: 15;
+}
+
+.form__inside {
+    margin: 28px;
+    width: 300px;
+    height: 482px;
+}
+
+.form__title {
+    margin-bottom: 1rem;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    & span {
+        font-weight: bold;
+    }
+}
+
+.time__title {
+    margin-bottom: .6rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.colon {
+    margin-top: 10px;
+}
+
+.time__items {
+    display: flex;
+    justify-content: space-around;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.time__item {
+    & center {
+        margin-top: .6rem;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+.clock {
+    padding: 10px 20px;
+
+    border-radius: $radius_lt;
+    color: white;
+    background: $gradient;
+}
+
+.form__dialog {
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px
+}
+
+.form__input {
+    padding: 10px;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    border: none;
+    border-radius: $radius_lt;
+    background: #EAEAEC;
+    color: grey;
+}
+
+.form__button {
+    padding: 15px 20px;
+    margin: 0 22px 1rem 22px;
+
+    font-style: normal;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: white;
+    background: $gradient;
+    border: none;
+    border-radius: $radius_lt;
+    cursor: pointer;
+}
+
+.form__note {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+
+    & span {
+        font-weight: 600;
+    }
+}

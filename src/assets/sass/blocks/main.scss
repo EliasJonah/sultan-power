@@ -1,9 +1,24 @@
 .main {
+    position: relative;
     height: 1088px;
     margin-bottom: 2rem;
 
     background: url(../img/main/girls-bcg.jpg) center no-repeat;
 	background-size: cover;
+}
+
+.pattern__left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.pattern__right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
 }
 
 .main__title {
@@ -64,8 +79,8 @@
 
 .main_lightning {
     position: absolute;
-    bottom: -40%;
-    right: -35%;
+    bottom: 0%;
+    right: 0%;
     z-index: 8;
 }
 
@@ -126,8 +141,8 @@
     display: flex;
     list-style-type: none;
     position: absolute;
-    top: 90%;
-    left: 30%;
+    top: 85%;
+    left: 35%;
     z-index: 15;
 }
 
