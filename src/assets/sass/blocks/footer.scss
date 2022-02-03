@@ -24,6 +24,7 @@
     position: absolute;
     top: -45%;
     right: -10%;
+    z-index: 1;
 }
 
 .center__shadow {
@@ -31,7 +32,8 @@
     height: 125px;
     position: absolute;
     top: 0%;
-    left: 0%;
+    right: -15%;
+    z-index: 2;
 }
 
 .footer__content {
@@ -98,6 +100,7 @@
 }
 
 .footer__inner {
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;

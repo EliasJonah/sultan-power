@@ -1364,6 +1364,10 @@ h1, h2, h3, h4, h5, h6 {
     background: linear-gradient(180deg, #d32a2a 0%, rgba(0, 0, 0, 0) 100%), #1b0807;
 }
 
+.header__footer {
+    margin-bottom: 1rem;
+}
+
 .main {
     position: relative;
     height: 1088px;
@@ -1640,6 +1644,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 2rem;
 }
 
+.content img {
+    position: relative;
+    z-index: 25;
+}
+
 .content__pattern {
     position: absolute;
     top: 0;
@@ -1670,8 +1679,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__three__flex {
+    position: relative;
     background: #F8C67D;
     justify-content: left;
+    z-index: 25;
 }
 
 .content__text {
@@ -1866,6 +1877,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: -45%;
     right: -10%;
+    z-index: 1;
 }
 
 .center__shadow {
@@ -1873,7 +1885,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 125px;
     position: absolute;
     top: 0%;
-    left: 0%;
+    right: -15%;
+    z-index: 2;
 }
 
 .footer__content {
@@ -1937,6 +1950,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__inner {
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1953,4 +1967,75 @@ h1, h2, h3, h4, h5, h6 {
 
 .drug__flex {
     display: flex;
+}
+
+.recipe {
+    height: 653px;
+    background: url(../../../assets/img/recipe/recipe-bcg.png) center no-repeat;
+    background-size: cover;
+}
+
+.recipe__flex {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe__item {
+    position: relative;
+    width: 631px;
+    height: 226px;
+    background: white;
+    box-shadow: 0 0 8px 3px rgba(190, 190, 190, 0.6);
+    border-radius: 20px;
+}
+
+.recipe__item__asai {
+    z-index: 25;
+}
+
+.recipe__header {
+    margin: 2rem 0 1rem 3rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #E02927;
+    text-transform: uppercase;
+}
+
+.recipe__content {
+    margin-left: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.zhen {
+    position: absolute;
+    top: -35%;
+    right: -4%;
+    z-index: 20;
+}
+
+.muira {
+    position: absolute;
+    top: -80%;
+    right: -13%;
+    z-index: 20;
+}
+
+.root {
+    position: absolute;
+    top: -50%;
+    right: -13%;
+    z-index: 20;
+}
+
+.asai {
+    position: absolute;
+    top: -55%;
+    right: -5%;
+    z-index: 20;
 }

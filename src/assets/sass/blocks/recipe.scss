@@ -1,0 +1,72 @@
+.recipe {
+    height: 653px;
+    background: url(../../../assets/img/recipe/recipe-bcg.png) center no-repeat;
+	background-size: cover;
+}
+
+.recipe__flex {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.recipe__item {
+    position: relative;
+    width: 631px;
+    height: 226px;
+
+    background: white;
+    box-shadow: 0 0 8px 3px rgba(190, 190, 190, 0.6);
+    border-radius: $radius;
+}
+
+.recipe__item__asai {
+    z-index: 25;
+}
+
+.recipe__header {
+    margin: 2rem 0 1rem 3rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #E02927;
+    text-transform: uppercase;
+}
+
+.recipe__content {
+    margin-left: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.zhen {
+    position: absolute;
+    top: -35%;
+    right: -4%;
+    z-index: 20;
+}
+
+.muira {
+    position: absolute;
+    top: -80%;
+    right: -13%;
+    z-index: 20;
+}
+
+.root {
+    position: absolute;
+    top: -50%;
+    right: -13%;
+    z-index: 20;
+}
+
+.asai {
+    position: absolute;
+    top: -55%;
+    right: -5%;
+    z-index: 20;
+}
